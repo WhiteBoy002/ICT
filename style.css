@@ -1,0 +1,128 @@
+
+/* TheNew4*/
+.btn8 {
+  padding: 1.1em 2em;
+  background: none;
+  background-color: rgba(0, 0, 0, 0.053);
+  color: rgb(255, 255, 255);
+  font-size: 15px;;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  border-radius: 50px;
+  font-weight: bolder;
+
+ }
+ 
+ .btn8:before {
+  content: "";
+  position: absolute;
+  left: 2.1cm;
+  width: 120px;
+  height: 120%;
+  background-color: rgba(0, 0, 0, 0.89);
+  top: 50%;
+  transform: skewX(30deg) translate(-160%, -60%);
+  transition: all 0.8s;
+ }
+ 
+ .btn8:hover {
+  background-color: #ef7ff9;
+  color: #fff;
+ }
+ 
+ .btn8:hover::before {
+  transform: skewX(30deg) translate(230%, -50%);
+  transition-delay: 0.1s;
+ }
+ 
+ .btn8:active {
+  transform: scale(0.9);
+ }
+ /* TheNew4*/
+ .button9 {position: relative;
+  margin-top: 560px;
+  display: flex;
+  left: 20cm;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  border-radius: 3px;
+  padding: 8px 10px 10px 5px;
+  gap: 10px;
+  background-color: rgba(255,255,255,0.27);
+  color: rgba(255, 244, 255, 0.8);
+  outline: 3px rgba(238,130,238,0.80) solid;
+  outline-offset: -3px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.button9 .text {
+  color: white;
+  font-weight: 700;
+  font-size: 1.4em;
+  transition: 400ms;
+}
+
+.button9 svg path {
+  transition: 400ms;
+}
+
+.button9:hover {
+  background-color: transparent;
+}
+
+.button9:hover .text {
+  color: #181717;
+}
+
+.button9:hover svg path {
+  fill: #181717;
+}
+/* TheNew4*/
+.button10 {position: relative;
+  margin-top: -48px;
+  display: flex;
+  left: 15cm;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  border-radius: 3px;
+  padding: 8px 10px 10px 5px;
+  gap: 10px;
+  background-color: rgba(255,255,255,0.27);
+  color: rgba(255, 244, 255, 0.8);
+  outline: 3px rgba(238,130,238,0.80) solid;
+  outline-offset: -3px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.button10 .text {
+  color: white;
+  font-weight: 700;
+  font-size: 1.4em;
+  transition: 400ms;
+}
+
+.button10 svg path {
+  transition: 400ms;
+}
+
+.button10:hover {
+  background-color: transparent;
+}
+
+.button10:hover .text {
+  color: #181717;
+}
+
+.button10:hover svg path {
+  fill: #181717;
+}
