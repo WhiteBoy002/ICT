@@ -41,10 +41,11 @@
   transform: scale(0.9);
  }
  /* TheNew4*/
- .button9 {position: relative;
-  margin-top: 560px;
+ .button9 {
+  position: absolute;
+  margin-top: 30px;
   display: flex;
-  left: 20cm;
+  left: 5.5cm;
   justify-content: center;
   align-items: center;
   width: 175px;
@@ -84,10 +85,11 @@
   fill: #181717;
 }
 /* TheNew4*/
-.button10 {position: relative;
-  margin-top: -48px;
+.button10 {
+  position: absolute;
+  margin-top: 30px;
+  left: 0.3cm;
   display: flex;
-  left: 15cm;
   justify-content: center;
   align-items: center;
   width: 175px;
