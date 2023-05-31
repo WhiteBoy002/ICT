@@ -44,9 +44,12 @@
 /*photobuttontest*/
 
 .photo-button {
-    width: 200px; /* Set the width of the button */
+    position: fixed;
+    top: 14cm;
+    left: 2cm;
+    width: 300px; /* Set the width of the button */
     height: 200px; /* Set the height of the button */
-    border: 1px solid rgb(255, 0, 179);
+    outline: 3px #0000ffcf solid;
     border-radius: 25px;
     background-image: url(/material/sasuke4.jpg); /* Specify the path to your photo */
     background-size: cover; /* Scale the background image to cover the button */
@@ -54,17 +57,24 @@
     border: none; /* Remove the default button border */
     cursor: pointer; /* Show a pointer cursor on hover */
   }
+.photo-button .text {
+    color: rgb(255, 18, 18);
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
   
 
 /*another*/
 
 .button10 {
-  position: relative;
-  top: -4cm;
-  left: 20.5cm;
+  position: fixed;
+  top: 0.70cm;
+  left: 26.5cm;
   overflow: hidden;
   height: 3rem;
   padding: 0 2rem;
+  cursor: pointer;
   border-radius: 1.5rem;
   background: #000000;
   background-size: 400%;
@@ -104,6 +114,7 @@
   position: fixed;
   top: 0.70cm;
   left: 29.5cm;
+  cursor: pointer;
   overflow: hidden;
   height: 3rem;
   padding: 0 2rem;
@@ -146,6 +157,7 @@
   position: fixed;
   top: 0.70cm;
   left: 32.5cm;
+  cursor: pointer;
   overflow: hidden;
   height: 3rem;
   padding: 0 2rem;
@@ -182,12 +194,14 @@
   );
   transition: all 0.475s;
 }
+
 /*another*/
 
 .button82 {
   position: fixed;
   top: 0.70cm;
   left: 36.5cm;
+  cursor: pointer;
   overflow: hidden;
   height: 3rem;
   padding: 0 2rem;
@@ -223,4 +237,12 @@
     rgba(99, 88, 238, 1) 94.3%
   );
   transition: all 0.475s;
+}
+
+/* newone */
+h1 {
+  font-size: 50px;
+  color: #dfe0e4;
+  z-index: -25;
+  text-shadow: 0 0 5px #ffffff40, 0 0 10px #ffffff40, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
