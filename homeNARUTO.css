@@ -313,5 +313,14 @@ h1 {
   text-shadow: 0 0 5px #ffffff40, 0 0 10px #ffffff40, 0 0 15px #706e70d9, 0 0 20px #706e70d9, 0 0 25px #706e70d9, 0 0 30px #706e70d9, 0 0 35px #706e70d9;
 }
 
+/* kakashi photobackground text */
+.maintext {
+  position: fixed;
+  top: 5cm;
+  left: 12cm;
+  font-size: 70px;
+  color: #ffffff;
+}
+
 
 
