@@ -1,3 +1,19 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00bbff;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0011ff;
+}
 .btn85 {
     background: transparent;
     position: relative;
@@ -44,7 +60,7 @@
 /*photobuttontest*/
 
 .photo-button {
-    position: fixed;
+    position: absolute;
     top: 14cm;
     left: 1cm;
     width: 300px; /* Set the width of the button */
@@ -244,7 +260,7 @@ h1 {
 /*photobutton69*/
 
 .photo-button69 {
-  position: fixed;
+  position: absolute;
   top: 14cm;
   left: 11cm;
   width: 300px; /* Set the width of the button */
@@ -269,7 +285,7 @@ h1 {
 /*photobutton45Sakura*/
 
 .photo-button45 {
-  position: fixed;
+  position: absolute;
   top: 14cm;
   left: 21cm;
   width: 300px; /* Set the width of the button */
@@ -292,7 +308,7 @@ h1 {
 /*photobutton46Kakashi*/
 
 .photo-button46 {
-  position: fixed;
+  position: absolute;
   top: 14cm;
   left: 31cm;
   width: 300px; /* Set the width of the button */
@@ -315,12 +331,52 @@ h1 {
 
 /* kakashi photobackground text */
 .maintext {
-  position: fixed;
+  position: absolute;
   top: 5cm;
+  left: 17cm;
+  font-size: 70px;
+  color: #ffffff;
+}
+
+/*photobutton47Kakashi*/
+
+.photo-button47 {
+  position: absolute;
+  top: 25cm;
+  left: 31cm;
+  width: 300px; /* Set the width of the button */
+  height: 200px; /* Set the height of the button */
+  outline: 3px #adaaac solid;
+  border-radius: 25px;
+  background-image: url(/material/buttonitachi.jpg); /* Specify the path to your photo */
+  background-size: cover; /* Scale the background image to cover the button */
+  background-position: center; /* Position the background image at the center */
+  border: none; /* Remove the default button border */
+  cursor: pointer; /* Show a pointer cursor on hover */
+}
+/* All Mmembers text */
+.maintext1 {
+  position: absolute;
+  top: 19.5cm;
   left: 12cm;
   font-size: 70px;
   color: #ffffff;
 }
+/* team 7 wrapper */
+.w3-container {
+  position: absolute;
+  top: 6.4cm;
+  left: 16cm;
+  width: 300px;
+  height: 100px;
+  background-color: #ff0000;
+  border-radius: 25px;
+  
+}
+
+
+
+
 
 
 
